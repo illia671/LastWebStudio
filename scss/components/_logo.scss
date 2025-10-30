@@ -1,0 +1,10 @@
+.logo{
+  @include text("Raleway", 26px);
+    font-family: 'Raleway', sans-serif;
+    font-size: 26px;
+  font-weight: 700;
+  color: #000000;
+}
+.logo span{
+  color: #2196F3;
+}

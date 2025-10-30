@@ -1,0 +1,92 @@
+.container{ 
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 15px;
+   @media screen and (min-width: 480px){
+       max-width: 480px;
+   }
+   @media screen and (min-width: 768px){
+      max-width: 768px;
+    }
+    @media screen and (min-width: 1200px){
+        max-width: 1200px;
+    }
+
+  &__team{
+  background-color: #F5F4FA;
+}
+&__uvaga{
+  @media screen and (min-width: 1200px){
+    background-image: url(/img/Group\ 1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 270px;
+    height: 120px;
+    margin-bottom: 30px;
+  }
+  background-image: url(/img/Group\ 1.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #F5F4FA;
+  height: 120px;
+  margin-bottom: 30px;
+  width: 450px;
+}
+&__uvaga2{
+  @media screen and (min-width: 1200px){
+  background-image: url(/img/Group\ 2.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 270px;
+  height: 120px;
+  margin-bottom: 30px;
+  }
+  background-image: url(/img/Group\ 2.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #F5F4FA;
+  height: 120px;
+  margin-bottom: 30px;
+  width: 450px;
+}
+&__uvaga3{
+  @media screen and (min-width: 1200px){
+  background-image: url(/img/Group\ 3.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 270px;
+  height: 120px;
+  margin-bottom: 30px;
+  }
+  background-image: url(/img/Group\ 3.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #F5F4FA;
+  height: 120px;
+  margin-bottom: 30px;
+  width: 450px;
+}
+&__uvaga4{
+  @media screen and (min-width: 1200px){
+  background-image: url(/img/Group\ 4.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 270px;
+  height: 120px;
+  margin-bottom: 30px;
+  }
+  background-image: url(/img/Group\ 4.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #F5F4FA;
+  height: 120px;
+  margin-bottom: 30px;
+  width: 450px;
+}
+}
+.is-hidden {
+  display: none;
+}
+.no-scroll{
+  overflow: hidden;
+}

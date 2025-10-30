@@ -1,0 +1,43 @@
+
+.client{
+  &__title{
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 100%;
+  letter-spacing: 3%;
+  text-align: center;
+  margin-top: 94px;
+  margin-bottom: 50px;
+}
+&__svg:hover{
+  fill: #2196F3;
+  border: 1px solid #2196F3;
+}
+&__svg{
+  @media screen and (min-width: 1200px){
+  padding: 16px 8px;
+  border: 1px solid #AFB1B8;
+  width: 160px;
+  height: 80px;
+  fill: #AFB1B8;
+  }
+  padding: 21px 63px;
+  border: 1px solid #AFB1B8;
+  width: 210px;
+  height: 92px;
+  fill: #AFB1B8;
+}
+&__list{
+  @media screen and (min-width: 1200px){
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  margin-bottom: 94px;
+  }
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 10px;
+  margin-bottom: 94px;
+}
+}

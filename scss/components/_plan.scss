@@ -1,0 +1,46 @@
+.plan{
+  margin: 94px 0px;
+  &__text{ 
+    @media screen and (min-width: 1200px){
+    color: #757575;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 3%;
+  }
+  color: #757575;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 3%;
+  width: 450px;
+  text-align: left;
+  padding: 0px;
+}
+&__link{
+  @media screen and (min-width: 1200px){
+    width: 270px;
+  } ;
+    text-align: center;
+}
+&__title{
+  padding-bottom: 10px;
+  font-weight: 700;
+  font-size: 14px; 
+  line-height: 100%;
+  letter-spacing: 3%;
+  text-transform: uppercase;
+  color: #212121;
+}
+&__imglist{
+  @extend %flex;
+}
+&__list{
+  @media screen and (min-width: 1200px){
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+  } 
+}
+}

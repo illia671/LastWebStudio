@@ -1,0 +1,22 @@
+.member{
+&__title{
+  @include text("Roboto", 16px);
+  color: #212121;
+  font-weight: 500;
+  line-height: 100%;
+  letter-spacing: 3%;
+  text-align: center;
+  margin: 30px 0px 10px 0px;
+  
+}
+  &__nickname{
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 3%;
+  color: #757575;
+  text-align: center;
+  margin-bottom: 16px;
+}
+}

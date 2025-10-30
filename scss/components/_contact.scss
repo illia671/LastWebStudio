@@ -1,0 +1,13 @@
+.contact__logo__list{
+  @extend %flex;
+  gap: 22px;
+}
+.contact__logo__item {
+  margin-top: 32px;
+}
+.contact__logo__item:hover {
+  fill: white;
+  background-color: #2196F3;
+  border-radius: 50%;
+  border: 12px solid #2196F3;
+}

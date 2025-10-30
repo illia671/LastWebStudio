@@ -1,0 +1,110 @@
+.footer{
+  display: flex;
+  justify-content: space-between;
+  padding: 60px 0px;
+  background-color: #2f303a;
+  flex-direction: column;
+  text-align: center;
+  @media screen and (min-width: 1200px){
+    display: flex;
+    justify-content: space-between;
+    padding: 60px 0px;
+    background-color: #2f303a;
+    flex-direction: row;
+  }
+
+  &__contact__title {
+  color: white;
+}
+&__contact{
+  @media screen and (min-width: 1200px){
+    margin-bottom: 0px;
+  }
+  margin-bottom: 60px;
+}
+&__logo__list {
+  @media screen and (min-width: 1200px){
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+  }
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+&__logo__link {
+  margin-top: 20px;
+  padding: 12px ;
+  background-color: #FFFFFF1A;
+  width: 44px;
+  height: 44px;
+  display: inline-block;
+  fill: white;
+  border-radius: 50%;
+}
+&__svg{
+  width: 20px;
+  height: 20px;
+}
+&__logo__link:hover{
+  background-color: #188CE8;
+}
+&__telegram{
+  transform: translate(25%, 25%);
+  fill: white;
+  margin: 0px 10px;
+  width: 24px;
+  height: 24px;
+}
+}
+.subscribe {
+  width: 200px;
+  height: 50px;
+  background-color: #188CE8;
+  border: 0px solid #188CE8;
+  color: white;
+  border-radius: 4px;
+font-weight: 700;
+font-size: 16px;
+line-height: 30px;
+letter-spacing: 6%;
+text-align: center;
+vertical-align: middle;
+}
+.e__mail__text {
+  color: white;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 100%;
+  letter-spacing: 3%;
+  text-transform: uppercase;
+
+}
+.e__mail__input__footer{
+  @media screen and (min-width: 1200px){
+    margin-top: 20px;
+  padding: 0px 16px;
+  color: white;
+  border: 1px;
+  border-radius: 4px;
+  width: 358px;
+  height: 50px;
+  background: #2196F3;
+  box-shadow: 0px 4px 4px 0px #00000026;
+  background-color: #2F303A;
+  border: 1px solid #FFFFFF4D;
+  margin-bottom: 0px;
+  }
+  margin-top: 20px;
+  padding: 0px 16px;
+  color: white;
+  border: 1px;
+  border-radius: 4px;
+  width: 450px;
+  margin-bottom: 20px;
+  height: 50px;
+  background: #2196F3;
+  box-shadow: 0px 4px 4px 0px #00000026;
+  background-color: #2F303A;
+  border: 1px solid #FFFFFF4D
+}
