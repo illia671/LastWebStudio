@@ -27,7 +27,7 @@ display: inline-block;
     padding: 48px 40px;
     overflow: hidden;
     width: 100vw;
-    height: 100vh;
+    height: 100%;
     position: fixed;
     background-color: white;
     z-index: 1000;
@@ -35,7 +35,12 @@ display: inline-block;
     left: 0;
 }
 .burger--close {
-    width: 25px;
+
+opacity: 1;
+
+    position: relative;
+    text-align: right;
+    width: 100%;
     background-color: transparent;
     border: none;
     height: 25px;
@@ -76,12 +81,15 @@ display: inline-block;
 }
 .burger__nav__list--contact {
     display: flex;
-    justify-content: center;
+    justify-content: left;
 }
 .burger__nav__item--contact {
+    margin-top: 30px;
+    border-right: 1px #21212133 solid;
+    border-left: 1px #21212133 solid;
     padding: 0 10px;
-    margin: 0 20px;
     color: #2196F3;
 }
 .burger__nav__link--contact {
+    color: #2196F3;
 }

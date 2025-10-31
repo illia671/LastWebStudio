@@ -112,7 +112,7 @@ a {
   padding: 48px 40px;
   overflow: hidden;
   width: 100vw;
-  height: 100vh;
+  height: 100%;
   position: fixed;
   background-color: white;
   z-index: 1000;
@@ -121,7 +121,10 @@ a {
 }
 
 .burger--close {
-  width: 25px;
+  opacity: 1;
+  position: relative;
+  text-align: right;
+  width: 100%;
   background-color: transparent;
   border: none;
   height: 25px;
@@ -173,14 +176,20 @@ a {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
 }
 
 .burger__nav__item--contact {
+  margin-top: 30px;
+  border-right: 1px rgba(33, 33, 33, 0.2) solid;
+  border-left: 1px rgba(33, 33, 33, 0.2) solid;
   padding: 0 10px;
-  margin: 0 20px;
+  color: #2196F3;
+}
+
+.burger__nav__link--contact {
   color: #2196F3;
 }
 
@@ -676,12 +685,12 @@ a {
   text-align: center;
   letter-spacing: 6%;
   padding: 250px 0;
-  background-image: url(/img/HeroMobile.png);
+  background-image: url(/img/heromobile.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: 100%;
   width: 100%;
-  height: 400px;
+  height: 600px;
   text-align: center;
   padding: 0px;
   -webkit-box-align: center;
@@ -689,10 +698,20 @@ a {
           align-items: center;
   padding-top: 118px;
 }
+@media screen and (min-width: 768px) {
+  .services {
+    background-image: url(/img/herolabtop.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 400px;
+    padding: 0px;
+  }
+}
 @media screen and (min-width: 1200px) {
   .services {
     padding: 250px 0;
-    background-image: url(/img/Header.png);
+    background-image: url(/img/header.png);
     background-repeat: no-repeat;
     background-position: center;
     width: 100%;
@@ -1333,7 +1352,7 @@ body {
 
 .batton__close {
   margin-top: 8px;
-  margin-left: 450px;
+  margin-left: 370px;
   background-color: white;
   border-color: rgba(0, 0, 0, 0.1019607843);
   border-radius: 0px;
