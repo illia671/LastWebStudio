@@ -10,7 +10,7 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="./css/main.min.css">    
+    <link rel="stylesheet" href="./css/main.min.css" /> 
   </head>
   <body>
     <header class="header">
@@ -18,9 +18,15 @@
         <a href="./index.html" class="logo"><span>Web</span>Studio</a>
         <nav>
           <ul class="header__nav">
-            <li class="header__link"><a href="./index.html" class="header__link">Студія</a></li>
-            <li class="header__link"><a href="" class="blue__text">Портфоліо</a></li>
-            <li class="header__link"><a href="#footer" class="header__link">Контакти</a></li>
+            <li class="header__link">
+              <a href="./index.html" class="header__link">Студія</a>
+            </li>
+            <li class="header__link">
+              <a href="" class="blue__text">Портфоліо</a>
+            </li>
+            <li class="header__link">
+              <a href="#footer" class="header__link">Контакти</a>
+            </li>
           </ul>
         </nav>
         <ul class="web__list">
@@ -44,45 +50,69 @@
         <ul>
           <li>
             <button class="menu__button" data-mob-open>
-            <svg class="menu__svg">
-              <use href="./img/menu.svg#icon-menu"></use>
-            </svg>
+              <svg class="menu__svg">
+                <use href="./img/menu.svg#icon-menu"></use>
+              </svg>
             </button>
           </li>
         </ul>
       </div>
     </header>
-        <div class="burger__menu is-hidden " data-mob>
-            <button type="button" class="burger--close" data-mob-close>X</button>
-            <nav class="burger__nav">
-                <ul class="burger__list">
-                    <li class="burger__item blue"><a href="./index.html" class="burger__link" > Студія</a></li>
-                    <li class="burger__item"><a href="" class="burger__link blue"> Портфоліо</a></li>
-                    <li class="burger__item"><a href="" class="burger__link"> Контакти</a></li>
-                </ul>
-                <ul class="burger__web__list">
-                  <li class="burger__web__item">
-                    <a href="" class="burger__web__link blue"> info@devstudio.com</a>
-                 </li>
-                 <li class="burger__web__item">
-                    <a href="" class="burger__web__link2">+38 096 111 11 11</a>
-                 </li>
-                </ul>
-                <ul class="burger__nav__list--contact">
-                  <li class="burger__nav__item--contact"><a href="" class="burger__nav__link--contact">Instagram</a></li>
-                  <li class="burger__nav__item--contact"><a href="" class="burger__nav__link--contact">Twitter</a></li>
-                  <li class="burger__nav__item--contact"><a href="" class="burger__nav__link--contact">Facebook</a></li>
-                  <li class="burger__nav__item--contact"><a href="" class="burger__nav__link--contact">LinkedIn</a></li>
-                </ul>          
-            </nav>
-      </div>
+    <div class="burger__menu is-hidden" data-mob>
+      <button type="button" class="burger--close" data-mob-close>X</button>
+      <nav class="burger__nav">
+        <ul class="burger__list">
+          <li class="burger__item blue">
+            <a href="./index.html" class="burger__link"> Студія</a>
+          </li>
+          <li class="burger__item">
+            <a href="" class="burger__link blue"> Портфоліо</a>
+          </li>
+          <li class="burger__item">
+            <a href="" class="burger__link"> Контакти</a>
+          </li>
+        </ul>
+        <ul class="burger__web__list">
+          <li class="burger__web__item">
+            <a href="" class="burger__web__link blue"> info@devstudio.com</a>
+          </li>
+          <li class="burger__web__item">
+            <a href="" class="burger__web__link2">+38 096 111 11 11</a>
+          </li>
+        </ul>
+        <ul class="burger__nav__list--contact">
+          <li class="burger__nav__item--contact">
+            <a href="" class="burger__nav__link--contact">Instagram</a>
+          </li>
+          <li class="burger__nav__item--contact">
+            <a href="" class="burger__nav__link--contact">Twitter</a>
+          </li>
+          <li class="burger__nav__item--contact">
+            <a href="" class="burger__nav__link--contact">Facebook</a>
+          </li>
+          <li class="burger__nav__item--contact">
+            <a href="" class="burger__nav__link--contact">LinkedIn</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
     <main class="container">
       <ul class="portfolio__btn__list">
-        <li class="portfolio__btn__item"><button class="portfolio__btn">Усі</button></li>
-        <li class="portfolio__btn__item"><button class="portfolio__btn">Веб-сайти</button></li>
-        <li class="portfolio__btn__item"><button class="portfolio__btn">Додатки</button></li>
-        <li class="portfolio__btn__item"><button class="portfolio__btn">Дизайн</button></li>
-        <li class="portfolio__btn__item"><button class="portfolio__btn">Маркетинг</button></li>
+        <li class="portfolio__btn__item">
+          <button class="portfolio__btn">Усі</button>
+        </li>
+        <li class="portfolio__btn__item">
+          <button class="portfolio__btn">Веб-сайти</button>
+        </li>
+        <li class="portfolio__btn__item">
+          <button class="portfolio__btn">Додатки</button>
+        </li>
+        <li class="portfolio__btn__item">
+          <button class="portfolio__btn">Дизайн</button>
+        </li>
+        <li class="portfolio__btn__item">
+          <button class="portfolio__btn">Маркетинг</button>
+        </li>
       </ul>
       <section class="galery">
         <ul class="galery__list">
@@ -95,7 +125,7 @@
               <p class="blue__window__text">вичерпні відомості про компанію</p>
               <p class="blue__window__text">чи приватну особу</p>
             </div>
-            <img src="./img/tehnocryack.png" alt="" class="galery__img">
+            <img src="./img/tehnocryack.png" alt="" class="galery__img" />
             <h3 class="galery__title">Технокряк</h3>
             <p class="galery__text">Веб-сайт</p>
           </li>
@@ -108,7 +138,7 @@
               <p class="blue__window__text">вичерпні відомості про компанію</p>
               <p class="blue__window__text">чи приватну особу</p>
             </div>
-            <img src="./img/portfolio.png" alt="" class="galery__img">
+            <img src="./img/portfolio.png" alt="" class="galery__img" />
             <h3 class="galery__title">Постер New Orlean vs Golden Star</h3>
             <p class="galery__text">Дизайн</p>
           </li>
@@ -121,7 +151,7 @@
               <p class="blue__window__text">вичерпні відомості про компанію</p>
               <p class="blue__window__text">чи приватну особу</p>
             </div>
-            <img src="./img/portfolio1.png" alt="" class="galery__img">
+            <img src="./img/portfolio1.png" alt="" class="galery__img" />
             <h3 class="galery__title">Ресторан Seafood</h3>
             <p class="galery__text">Додаток</p>
           </li>
@@ -134,7 +164,7 @@
               <p class="blue__window__text">вичерпні відомості про компанію</p>
               <p class="blue__window__text">чи приватну особу</p>
             </div>
-            <img src="./img/portfolio2.png" alt="" class="galery__img">
+            <img src="./img/portfolio2.png" alt="" class="galery__img" />
             <h3 class="galery__title">Проєкт Prime</h3>
             <p class="galery__text">Маркетинг</p>
           </li>
@@ -147,7 +177,7 @@
               <p class="blue__window__text">вичерпні відомості про компанію</p>
               <p class="blue__window__text">чи приватну особу</p>
             </div>
-            <img src="./img/portfolio3.png" alt="" class="galery__img">
+            <img src="./img/portfolio3.png" alt="" class="galery__img" />
             <h3 class="galery__title">Проєкт Boxes</h3>
             <p class="galery__text">Додаток</p>
           </li>
@@ -160,7 +190,7 @@
               <p class="blue__window__text">вичерпні відомості про компанію</p>
               <p class="blue__window__text">чи приватну особу</p>
             </div>
-            <img src="./img/portfolio4.png" alt="" class="galery__img">
+            <img src="./img/portfolio4.png" alt="" class="galery__img" />
             <h3 class="galery__title">Inspiration has no Borders</h3>
             <p class="galery__text">Веб-сайт</p>
           </li>
@@ -173,7 +203,7 @@
               <p class="blue__window__text">вичерпні відомості про компанію</p>
               <p class="blue__window__text">чи приватну особу</p>
             </div>
-            <img src="./img/portfolio5.png" alt="" class="galery__img">
+            <img src="./img/portfolio5.png" alt="" class="galery__img" />
             <h3 class="galery__title">Видання Limited Edition</h3>
             <p class="galery__text">Дизайн</p>
           </li>
@@ -186,7 +216,7 @@
               <p class="blue__window__text">вичерпні відомості про компанію</p>
               <p class="blue__window__text">чи приватну особу</p>
             </div>
-            <img src="./img/portfolio6.png" alt="" class="galery__img">
+            <img src="./img/portfolio6.png" alt="" class="galery__img" />
             <h3 class="galery__title">Проєкт LAB</h3>
             <p class="galery__text">Маркетинг</p>
           </li>
@@ -199,7 +229,7 @@
               <p class="blue__window__text">вичерпні відомості про компанію</p>
               <p class="blue__window__text">чи приватну особу</p>
             </div>
-            <img src="./img/portfolio7.png" alt="" class="galery__img">
+            <img src="./img/portfolio7.png" alt="" class="galery__img" />
             <h3 class="galery__title">Growing Business</h3>
             <p class="galery__text">Додаток</p>
           </li>
@@ -220,53 +250,58 @@
         </ul>
         <ul class="footer__contact">
           <p class="footer__contact__title">Приєднуйтесь</p>
-             <ul class="footer__logo__list">
-               <li class="footer__logo__item">
-                 <a href="" class="footer__logo__link">
-                   <svg class="footer__svg">
-                     <use href="./img/symbol-defs.svg#icon-instagram"></use>
-                   </svg>
-                 </a>
-               </li>
-               <li class="footer__logo__item">
-                 <a href="" class="footer__logo__link">
-                   <svg class="footer__svg">
-                     <use href="./img/symbol-defs.svg#icon-twitter"></use>
-                   </svg>
-                 </a>
-               </li>
-               <li class="footer__logo__item">
-                 <a href="" class="footer__logo__link">
-                   <svg class="footer__svg">
-                     <use href="./img/symbol-defs.svg#icon-facebook"></use>
-                   </svg>
-                 </a>
-               </li>
-               <li class="footer__logo__item">
-                 <a href="" class="footer__logo__link">
-                   <svg class="footer__svg">
-                     <use href="./img/symbol-defs.svg#icon-linkedin"></use>
-                   </svg>
-                 </a>
-               </li>
-            </ul>
+          <ul class="footer__logo__list">
+            <li class="footer__logo__item">
+              <a href="" class="footer__logo__link">
+                <svg class="footer__svg">
+                  <use href="./img/symbol-defs.svg#icon-instagram"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="footer__logo__item">
+              <a href="" class="footer__logo__link">
+                <svg class="footer__svg">
+                  <use href="./img/symbol-defs.svg#icon-twitter"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="footer__logo__item">
+              <a href="" class="footer__logo__link">
+                <svg class="footer__svg">
+                  <use href="./img/symbol-defs.svg#icon-facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="footer__logo__item">
+              <a href="" class="footer__logo__link">
+                <svg class="footer__svg">
+                  <use href="./img/symbol-defs.svg#icon-linkedin"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
         </ul>
         <ul class="e__mail__input">
           <li class="e__mail__item">
             <p class="e__mail__text">Підпишіться на розсилку</p>
           </li>
           <li class="e__mail__item">
-            <input type="" placeholder="E-mail" name="Імя" class="e__mail__input__footer">
+            <input
+              type=""
+              placeholder="E-mail"
+              name="Імя"
+              class="e__mail__input__footer"
+            />
             <button class="subscribe">
               Підписатися
               <svg class="footer__telegram">
                 <use href="./img/telegram.svg#icon-telegram"></use>
-               </svg>
+              </svg>
             </button>
           </li>
         </ul>
       </div>
     </footer>
-  <script src="./mob.js"></script>
+    <script src="./mob.js"></script>
   </body>
 </html>
