@@ -271,7 +271,7 @@ a {
   background-color: #F5F4FA;
 }
 .container__uvaga {
-  background-image: url(/img/Group\ 1.png);
+  background-image: url(./img/Group\ 1.png);
   background-repeat: no-repeat;
   background-position: center;
   background-color: #F5F4FA;
@@ -281,7 +281,7 @@ a {
 }
 @media screen and (min-width: 1200px) {
   .container__uvaga {
-    background-image: url(/img/Group\ 1.png);
+    background-image: url(./img/Group\ 1.png);
     background-repeat: no-repeat;
     background-position: center;
     width: 270px;
@@ -290,7 +290,7 @@ a {
   }
 }
 .container__uvaga2 {
-  background-image: url(/img/Group\ 2.png);
+  background-image: url(./img/Group\ 2.png);
   background-repeat: no-repeat;
   background-position: center;
   background-color: #F5F4FA;
@@ -300,7 +300,7 @@ a {
 }
 @media screen and (min-width: 1200px) {
   .container__uvaga2 {
-    background-image: url(/img/Group\ 2.png);
+    background-image: url(./img/Group\ 2.png);
     background-repeat: no-repeat;
     background-position: center;
     width: 270px;
@@ -309,7 +309,7 @@ a {
   }
 }
 .container__uvaga3 {
-  background-image: url(/img/Group\ 3.png);
+  background-image: url(./img/Group\ 3.png);
   background-repeat: no-repeat;
   background-position: center;
   background-color: #F5F4FA;
@@ -319,7 +319,7 @@ a {
 }
 @media screen and (min-width: 1200px) {
   .container__uvaga3 {
-    background-image: url(/img/Group\ 3.png);
+    background-image: url(./img/Group\ 3.png);
     background-repeat: no-repeat;
     background-position: center;
     width: 270px;
@@ -328,7 +328,7 @@ a {
   }
 }
 .container__uvaga4 {
-  background-image: url(/img/Group\ 4.png);
+  background-image: url(./img/Group\ 4.png);
   background-repeat: no-repeat;
   background-position: center;
   background-color: #F5F4FA;
@@ -338,7 +338,7 @@ a {
 }
 @media screen and (min-width: 1200px) {
   .container__uvaga4 {
-    background-image: url(/img/Group\ 4.png);
+    background-image: url(./img/Group\ 4.png);
     background-repeat: no-repeat;
     background-position: center;
     width: 270px;
